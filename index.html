@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+<meta charset="UTF-8">
+<title>TaskMaster</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+ 
+<body>
+ 
+<div>
+ 
+<h1>TaskMaster</h1>
+ 
+<p id="contador">Tareas: 0</p>
+<p id="completadas">Completadas: 0</p>
+<p id="pendientesContador">Pendientes: 0</p>
+<button id="todas">Todas</button>
+<button id="pendientes">Pendientes</button>
+<button id="hechas">Completadas</button>
+``
+ 
+<input type="text" placeholder="Escribe una tarea">
+ 
+<select id="prioridad">
+<option>Alta</option>
+<option>Media</option>
+<option>Baja</option>
+</select>
+ 
+<button id="modoOscuro">🌙 Modo oscuro</button>
+<button id="anadir">Añadir</button>
+<button id="borrarTodo">Borrar todas</button>
+ 
+<ul id="listaTareas"></ul>
+ 
+</div>
+ 
+<script src="app.js"></script>
+ 
+</body>
+</html>
